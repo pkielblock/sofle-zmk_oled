@@ -9,5 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: nice-view-bongo-cat
+      remote: mrbanh
+      revision: main
   self:
     path: config

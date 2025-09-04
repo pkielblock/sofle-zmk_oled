@@ -4,16 +4,10 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#project
-    - name: mrbanh
-      url-base: https://github.com/MrBanh
-
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-bongo-cat
-      remote: mrbanh
-      revision: main
   self:
     path: config

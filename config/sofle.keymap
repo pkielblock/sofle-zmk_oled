@@ -64,11 +64,11 @@
 
         left {
             bindings = <
-&none  &kp F1           &kp F2         &kp F3        &kp F4      &kp F5                       &none  &none  &none  &none  &none  &none
-&none  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR  &kp PERCENT                  &none  &none  &none  &none  &none  &none
-&none  &kp LCTRL        &kp AMPERSAND  &kp ASTERISK  &kp MINUS   &kp EQUAL                    &none  &none  &none  &none  &none  &none
-&none  &none            &none          &none         &none       &none        &none    &none  &none  &none  &none  &none  &none  &none
-                        &none          &none         &none       &none        &none    &none  &none  &none  &none  &none
+&none  &kp F1             &kp F2             &kp F3         &kp F4  &kp F5                         &none  &none  &none  &none  &none  &none
+&none  &none              &none              &none          &none   &kp LG(LS(T))                  &none  &none  &none  &none  &none  &none
+&none  &kp LG(LC(LA(V)))  &kp LG(LC(LS(M)))  &none          &none   &none                          &none  &none  &none  &none  &none  &none
+&none  &none              &none              &kp LG(LS(C))  &none   &none          &none    &none  &none  &none  &none  &none  &none  &none
+                          &none              &none          &none   &none          &none    &none  &none  &none  &none  &none
             >;
 
             label = "left";

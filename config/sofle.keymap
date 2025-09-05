@@ -38,11 +38,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2    &kp N3    &kp N4    &kp N5                                 &kp N6  &kp N7         &kp N8     &kp N9     &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q   &kp W     &kp E     &kp R     &kp T                                  &kp Y   &kp U          &kp I      &kp O      &kp P     &kp LBKT
-&kp LEFT_SHIFT    &kp A   &kp S     &kp D     &kp F     &kp G                                  &kp H   &kp J          &kp K      &kp L      &kp SEMI  &kp SQT
-&kp LEFT_CONTROL  &kp Z   &kp X     &kp C     &kp V     &kp B   &kp C_MUTE    &kp PRINTSCREEN  &kp N   &kp M          &kp COMMA  &kp DOT    &kp FSLH  &kp RBKT
-                          &kp LGUI  &kp LALT  &kp LWIN  &mo 1   &kp SPACE     &kp ENTER        &mo 2   &kp LA(SPACE)  &kp TILDE  &kp GRAVE
+&kp ESCAPE        &kp N1  &kp N2         &kp N3    &kp N4        &kp N5                                 &kp N6  &kp N7     &kp N8     &kp N9     &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q   &kp W          &kp E     &kp R         &kp T                                  &kp Y   &kp U      &kp I      &kp O      &kp P     &kp LBKT
+&kp LEFT_SHIFT    &kp A   &kp S          &kp D     &kp F         &kp G                                  &kp H   &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z   &kp X          &kp C     &kp V         &kp B   &kp C_MUTE    &kp PRINTSCREEN  &kp N   &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp RBKT
+                          &kp LA(SPACE)  &kp LGUI  &kp LEFT_ALT  &mo 1   &kp SPACE     &kp ENTER        &mo 2   &kp MINUS  &kp EQUAL  &kp GRAVE
             >;
 
             sensor-bindings =
@@ -64,11 +64,11 @@
 
         left {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&none  &kp F1           &kp F2         &kp F3        &kp F4      &kp F5                       &none  &none  &none  &none  &none  &none
+&none  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DOLLAR  &kp PERCENT                  &none  &none  &none  &none  &none  &none
+&none  &kp LCTRL        &kp AMPERSAND  &kp ASTERISK  &kp MINUS   &kp EQUAL                    &none  &none  &none  &none  &none  &none
+&none  &none            &none          &none         &none       &none        &none    &none  &none  &none  &none  &none  &none  &none
+                        &none          &none         &none       &none        &none    &none  &none  &none  &none  &none
             >;
 
             label = "left";
